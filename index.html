@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aziz Septiaji Rizqulloh — Junior Web Developer</title>
+<meta name="description" content="Website profil pribadi Aziz Septiaji Rizqulloh, siswa RPL SMKN 1 Jenangan yang sedang mendalami web development.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="bg-decor" aria-hidden="true">
+  <div class="blob blob-a"></div>
+  <div class="blob blob-b"></div>
+</div>
+
+<!-- ================= HEADER / NAVBAR ================= -->
+<nav>
+  <div class="nav-inner">
+    <a href="#hero" class="nav-brand">
+      <img src="assets/images/foto-profil.png" alt="" class="nav-logo">
+      <span class="nav-name">Aziz Septiaji R.</span>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Buka menu navigasi" aria-expanded="false">☰</button>
+
+    <div class="nav-links" id="navLinks">
+      <a href="#about">Tentang</a>
+      <a href="#profesional">Profil</a>
+      <a href="#pendidikan">Pendidikan</a>
+      <a href="#pengalaman">Pengalaman</a>
+      <a href="#skills">Keahlian</a>
+      <a href="#projects">Portofolio</a>
+      <a href="#sertifikat">Sertifikat</a>
+      <a href="#kegiatan">Kegiatan</a>
+      <a href="#artikel">Artikel</a>
+      <a href="#contact">Kontak</a>
+    </div>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <!-- ================= 2. HERO / BERANDA ================= -->
+  <section class="hero" id="hero" aria-label="Perkenalan">
+    <div class="hero-inner">
+
+      <div class="hero-text">
+        <p class="eyebrow">Junior Web Developer</p>
+        <h1 class="headline">Aziz Septiaji <span class="headline-accent">Rizqulloh</span></h1>
+        <p class="hero-tagline">“Kode yang rapi hari ini adalah hadiah untuk diri sendiri di masa depan.”</p>
+        <p class="hero-desc">Membangun website yang rapi secara struktur, ringan, dan enak digunakan — dari front-end sampai back-end.</p>
+
+        <div class="hero-facts">
+          <div class="fact">
+            <span class="fact-icon">🎓</span>
+            <div>
+              <div class="fact-label">Sekolah</div>
+              <div class="fact-value">SMKN 1 Jenangan · RPL</div>
+            </div>
+          </div>
+          <div class="fact">
+            <span class="fact-icon">📍</span>
+            <div>
+              <div class="fact-label">Lokasi</div>
+              <div class="fact-value">Setono, Jenangan, Ponorogo, Jawa Timur</div>
+            </div>
+          </div>
+          <div class="fact">
+            <span class="fact-icon">💼</span>
+            <div>
+              <div class="fact-label">Proyek dibuat</div>
+              <div class="fact-value">2 website</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#contact">Hubungi Saya</a>
+          <a class="btn btn-ghost" href="#projects">Lihat Portofolio</a>
+        </div>
+      </div>
+
+      <div class="hero-photo-wrap">
+        <div class="hero-photo">
+          <img src="assets/images/foto-profil.png" alt="Foto Aziz Septiaji Rizqulloh">
+        </div>
+        <div class="hero-badge">
+          <span class="hero-badge-dot"></span>
+          Terbuka untuk kolaborasi
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 3. TENTANG SAYA ================= -->
+  <section id="about" aria-labelledby="about-h">
+    <div class="section-head">
+      <span class="section-icon">👋</span>
+      <h2 id="about-h">Tentang Saya</h2>
+    </div>
+
+    <div class="about-grid">
+      <div class="card about-card">
+        <div class="about-body">
+          <p>Saya adalah siswa <span class="key">SMK Negeri 1 Jenangan</span>, jurusan <span class="key">Rekayasa Perangkat Lunak (RPL)</span>, dengan minat di bidang pengembangan web — mulai dari sisi tampilan (front-end) hingga logika server (back-end).</p>
+
+          <p>Ketertarikan saya pada web development bermula dari rasa penasaran melihat bagaimana sebuah rancangan tampilan bisa berubah menjadi website yang benar-benar bisa dipakai orang. Dari situ saya mulai belajar HTML dan CSS untuk membangun tampilan, lalu merambah ke JavaScript untuk membuat halaman lebih interaktif, dan akhirnya ke PHP serta MySQL supaya website bisa menyimpan dan mengolah data sendiri.</p>
+
+          <p>Bagi saya, kode yang rapi bukan cuma soal tampilan yang enak dipakai, tapi juga soal menghargai waktu orang lain yang nantinya membaca atau melanjutkan kode tersebut. Karena itu saya berusaha membiasakan diri menulis kode yang terstruktur, konsisten dalam penamaan, dan tidak berlebihan.</p>
+        </div>
+      </div>
+
+      <aside class="card biodata-card">
+        <h3 class="mini-title">Biodata Singkat</h3>
+        <dl class="biodata-list">
+          <div><dt>Nama Lengkap</dt><dd>Aziz Septiaji Rizqulloh</dd></div>
+          <div><dt>Domisili</dt><dd>Des. Ngrandu, Kec. Kauman, Kab. Ponorogo</dd></div>
+          <div><dt>Pendidikan</dt><dd>SMKN 1 Jenangan — RPL</dd></div>
+          <div><dt>Bidang</dt><dd>Web Development</dd></div>
+          <div><dt>Status</dt><dd>Pelajar / Junior Developer</dd></div>
+        </dl>
+
+        <h3 class="mini-title">Prinsip &amp; Visi</h3>
+        <ul class="visi-list">
+          <li>Menulis kode yang mudah dibaca dan dilanjutkan orang lain.</li>
+          <li>Belajar terus — teknologi berubah, kemauan belajar tidak.</li>
+          <li>Membuat produk yang benar-benar dipakai, bukan sekadar jadi.</li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ================= 4. PROFIL PROFESIONAL ================= -->
+  <section id="profesional" aria-labelledby="profesional-h">
+    <div class="section-head">
+      <span class="section-icon">💼</span>
+      <h2 id="profesional-h">Profil Profesional</h2>
+    </div>
+
+    <div class="profesional-grid">
+      <div class="prof-card">
+        <div class="prof-label">Jabatan / Peran</div>
+        <div class="prof-value">Junior Web Developer</div>
+        <p class="prof-desc">Fokus pada pembuatan website statis maupun dinamis, dari perancangan tampilan sampai pengolahan data di sisi server.</p>
+      </div>
+
+      <div class="prof-card">
+        <div class="prof-label">Instansi</div>
+        <div class="prof-value">SMK Negeri 1 Jenangan</div>
+        <p class="prof-desc">Kompetensi Keahlian Rekayasa Perangkat Lunak (RPL), Kabupaten Ponorogo, Jawa Timur.</p>
+      </div>
+
+      <div class="prof-card">
+        <div class="prof-label">Bidang yang Ditekuni</div>
+        <div class="prof-value">Front-End &amp; Back-End Web</div>
+        <p class="prof-desc">HTML, CSS, JavaScript untuk tampilan; PHP, MySQL, dan Next.js untuk logika serta pengelolaan database.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 5. PENDIDIKAN ================= -->
+  <section id="pendidikan" aria-labelledby="pendidikan-h">
+    <div class="section-head">
+      <span class="section-icon">🎓</span>
+      <h2 id="pendidikan-h">Pendidikan</h2>
+    </div>
+
+    <ol class="timeline">
+      <li class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-period">2024 — 2027</div>
+          <h3 class="timeline-title">SMK Negeri 1 Jenangan</h3>
+          <div class="timeline-sub">Sekolah Menengah Kejuruhan</div>
+          <p>Mempelajari dasar pemrograman, basis data, pemrograman web, dan pengembangan aplikasi berbasis web.</p>
+        </div>
+      </li>
+
+      <li class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-period">2021 — 2023</div>
+          <h3 class="timeline-title">SMPN 1 KAUMAN</h3>
+          <div class="timeline-sub">Pendidikan Menengah Pertama</div>
+          <p>Mulai mengenal komputer dan tertarik pada dunia teknologi serta desain.</p>
+        </div>
+      </li>
+
+      <li class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-period">2015 — 2021</div>
+          <h3 class="timeline-title">SDN 1 NGRANDU</h3>
+          <div class="timeline-sub">Sekolah Dasar</div>
+          <p>Pendidikan dasar di Kabupaten Ponorogo, Jawa Timur.</p>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <!-- ================= 6. PENGALAMAN ================= -->
+  <section id="pengalaman" aria-labelledby="pengalaman-h">
+    <div class="section-head">
+      <span class="section-icon">🧭</span>
+      <h2 id="pengalaman-h">Pengalaman</h2>
+    </div>
+
+    <div class="exp-grid">
+      <article class="exp-card">
+        <div class="exp-tag">Praktik Kerja lapangan(PKL)</div>
+        <h3>Kazuya Media Indonesia</h3>
+        <div class="exp-meta">6 April-11 September 2026</div>
+        <p>Melaksanakan Praktik Kerja Lapangan (PKL) di Kazuya Media Indonesia, tempat saya memperoleh pengalaman langsung dalam dunia kerja sekaligus menerapkan ilmu yang telah dipelajari di bidang pengembangan web.</p>
+      </article>
+  </section>
+
+  <!-- ================= 7. KEAHLIAN ================= -->
+  <section id="skills" aria-labelledby="skills-h">
+    <div class="section-head">
+      <span class="section-icon">🛠️</span>
+      <h2 id="skills-h">Keahlian</h2>
+    </div>
+
+    <div class="skill-levels card">
+      <div class="skill-row">
+        <div class="skill-row-top">
+          <span class="skill-name">HTML5 &amp; CSS3</span>
+          <span class="skill-level">Mahir</span>
+        </div>
+        <div class="skill-bar"><span style="width:85%"></span></div>
+      </div>
+
+      <div class="skill-row">
+        <div class="skill-row-top">
+          <span class="skill-name">JavaScript</span>
+          <span class="skill-level">Menengah</span>
+        </div>
+        <div class="skill-bar"><span style="width:70%"></span></div>
+      </div>
+
+      <div class="skill-row">
+        <div class="skill-row-top">
+          <span class="skill-name">PHP</span>
+          <span class="skill-level">Menengah</span>
+        </div>
+        <div class="skill-bar"><span style="width:65%"></span></div>
+      </div>
+
+      <div class="skill-row">
+        <div class="skill-row-top">
+          <span class="skill-name">MySQL / PostgreSQL</span>
+          <span class="skill-level">Menengah</span>
+        </div>
+        <div class="skill-bar"><span style="width:65%"></span></div>
+      </div>
+
+      <div class="skill-row">
+        <div class="skill-row-top">
+          <span class="skill-name">Next.js / React</span>
+          <span class="skill-level">Dasar</span>
+        </div>
+        <div class="skill-bar"><span style="width:45%"></span></div>
+      </div>
+
+      <div class="skill-row">
+        <div class="skill-row-top">
+          <span class="skill-name">Git &amp; GitHub</span>
+          <span class="skill-level">Menengah</span>
+        </div>
+        <div class="skill-bar"><span style="width:60%"></span></div>
+      </div>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill-card">
+        <div class="skill-card-top">
+          <span class="skill-icon">&lt;/&gt;</span>
+          <div class="skill-card-label">Bahasa</div>
+        </div>
+        <div class="pills">
+          <span class="pill">HTML5</span>
+          <span class="pill">CSS3</span>
+          <span class="pill">JavaScript</span>
+          <span class="pill">PHP</span>
+          <span class="pill">SQL</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card-top">
+          <span class="skill-icon">🗄️</span>
+          <div class="skill-card-label">Database</div>
+        </div>
+        <div class="pills">
+          <span class="pill">MySQL</span>
+          <span class="pill">PostgreSQL</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card-top">
+          <span class="skill-icon">📦</span>
+          <div class="skill-card-label">Library &amp; Framework</div>
+        </div>
+        <div class="pills">
+          <span class="pill">Bootstrap</span>
+          <span class="pill">jQuery</span>
+          <span class="pill">Next.js</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card-top">
+          <span class="skill-icon">⚙️</span>
+          <div class="skill-card-label">Tools</div>
+        </div>
+        <div class="pills">
+          <span class="pill">VS Code</span>
+          <span class="pill">XAMPP</span>
+          <span class="pill">Git &amp; GitHub</span>
+          <span class="pill">Figma</span>
+        </div>
+      </div>
+
+      <div class="skill-card skill-card-wide">
+        <div class="skill-card-top">
+          <span class="skill-icon">🌱</span>
+          <div class="skill-card-label">Sedang Dipelajari</div>
+        </div>
+        <div class="pills">
+          <span class="pill pill-learning">React</span>
+          <span class="pill pill-learning">Laravel</span>
+          <span class="pill pill-learning">Tailwind CSS</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 8. KARYA / PORTOFOLIO ================= -->
+  <section id="projects" aria-labelledby="projects-h">
+    <div class="section-head">
+      <span class="section-icon">🚀</span>
+      <h2 id="projects-h">Karya / Portofolio</h2>
+    </div>
+    <div class="projects">
+
+      <div class="project">
+        <div class="project-icon">🖥️</div>
+        <div class="project-body">
+          <div class="project-top">
+            <div class="project-name">Website Profil Pribadi</div>
+            <div class="project-tag static">Statis</div>
+          </div>
+
+          <div class="project-desc">Website portofolio ini sendiri — dibangun sebagai website statis tanpa database, menampilkan profil, pendidikan, pengalaman, keahlian, dan kontak.</div>
+          <div class="project-stack">
+            <span class="stack-chip">HTML</span>
+            <span class="stack-chip">CSS</span>
+            <span class="stack-chip">JavaScript</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project">
+        <div class="project-icon">🧶</div>
+        <div class="project-body">
+          <div class="project-top">
+            <div class="project-name">Toko Rajut Superman</div>
+            <div class="project-tag">Dinamis</div>
+          </div>
+
+          <div class="project-desc">Website katalog produk rajutan tangan dengan data dari database: pencarian produk, kategori, detail produk, keranjang belanja, checkout dengan validasi, serta panel admin (login, CRUD produk &amp; kategori, dashboard, laporan penjualan).</div>
+          <div class="project-stack">
+            <span class="stack-chip">Next.js</span>
+            <span class="stack-chip">PostgreSQL</span>
+            <span class="stack-chip">CSS</span>
+          </div>
+          <a class="project-link" href="https://toko-rajut-next-mx3t.vercel.app" target="_blank" rel="noopener">Kunjungi website →</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= 9. SERTIFIKAT / PRESTASI ================= -->
+  <section id="sertifikat" aria-labelledby="sertifikat-h">
+    <div class="section-head">
+      <span class="section-icon">🏅</span>
+      <h2 id="sertifikat-h">Sertifikat</h2>
+    </div>
+
+    <div class="sertifikat-grid">
+      <article class="sertifikat-card">
+        <span class="sertifikat-icon">📜</span>
+        <h3>Sertifikasi Junior Web Developer</h3>
+        <div class="sertifikat-meta">BNSP · dalam proses</div>
+        <p>Skema kompetensi Junior Web Developer — sedang menjalani uji praktik pembuktian kompetensi.</p>
+      </article>
+    </div>
+    <p class="section-note">Catatan: ganti dengan sertifikat/prestasi yang benar-benar kamu miliki, dan tambahkan tahun perolehannya.</p>
+  </section>
+
+  <!-- ================= 10. KEGIATAN ================= -->
+<section id="kegiatan">
+  <div class="section-head">
+    <div class="section-icon">📸</div>
+    <h2>Kegiatan</h2>
+  </div>
+
+  <div class="kegiatan-grid">
+
+    <div class="kegiatan-card">
+      <div class="kegiatan-thumb">
+        <img src="assets/images/Praktikum.png" alt="Praktikum Pemrograman Web">
+      </div>
+      <div class="kegiatan-body">
+        <h3>Praktikum Pemrograman Web</h3>
+        <div class="kegiatan-meta">Kegiatan PKL</div>
+        <p>
+          Kegiatan praktikum membuat halaman Dasboard Kantin Sekolah,di kazuya media indonesia(PKL).
+        </p>
+      </div>
+    </div>
+
+    <div class="kegiatan-card">
+      <div class="kegiatan-thumb">
+        <img src="assets/images/Tugas Kolaboratif.jpeg" alt="Kerja Kelompok Proyek Sekolah">
+      </div>
+      <div class="kegiatan-body">
+        <h3>Kerja Kelompok Proyek Sekolah</h3>
+        <div class="kegiatan-meta">Tugas Kolaboratif</div>
+        <p>
+          Mengerjakan proyek bersama tim: pembagian tugas, pengelolaan kode dengan Git, dan presentasi hasil.
+        </p>
+      </div>
+    </div>
+
+    <div class="kegiatan-card">
+      <div class="kegiatan-thumb">
+        <img src="assets/images/Kunjungan Industri.jpeg" alt="Kunjungan Industri">
+      </div>
+      <div class="kegiatan-body">
+        <h3>Kunjungan Industri</h3>
+        <div class="kegiatan-meta">Gamelab.id Salatiga</div>
+        <p>
+          Kunjungan ke Gamelab.id Salatiga untuk melihat proses pengembangan game dan aplikasi, serta berdiskusi dengan para profesional di industri kreatif.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  <!-- ================= 11. ARTIKEL / BLOG ================= -->
+  <section id="artikel" aria-labelledby="artikel-h">
+    <div class="section-head">
+      <span class="section-icon">✍️</span>
+      <h2 id="artikel-h">Artikel / Blog</h2>
+    </div>
+
+    <div class="artikel-list">
+      <article class="artikel-item">
+        <div class="artikel-date">2026</div>
+        <div class="artikel-body">
+          <h3>Belajar Membuat Website Statis Pertama dengan HTML &amp; CSS</h3>
+          <p>Catatan langkah awal membangun halaman web: struktur HTML semantik, penataan layout dengan Flexbox dan Grid, serta cara membuat tampilan responsif.</p>
+          <span class="artikel-tag">Tutorial</span>
+        </div>
+      </article>
+
+      <article class="artikel-item">
+        <div class="artikel-date">2026</div>
+        <div class="artikel-body">
+          <h3>Dari PHP ke Next.js: Pengalaman Memindahkan Proyek Toko Online</h3>
+          <p>Cerita saat mengubah proyek toko rajut dari PHP + MySQL menjadi Next.js + PostgreSQL agar bisa di-deploy ke Vercel, beserta kendala yang ditemui.</p>
+          <span class="artikel-tag">Pengalaman</span>
+        </div>
+      </article>
+
+      <article class="artikel-item">
+        <div class="artikel-date">2026</div>
+        <div class="artikel-body">
+          <h3>Kenapa Validasi Form Harus Dilakukan di Sisi Server Juga</h3>
+          <p>Penjelasan singkat mengapa validasi di browser saja tidak cukup, dan bagaimana menerapkan validasi ganda pada form checkout.</p>
+          <span class="artikel-tag">Catatan Belajar</span>
+        </div>
+      </article>
+    </div>
+    <p class="section-note">Catatan: tautkan judul artikel ke blog/Medium milikmu bila sudah ada.</p>
+  </section>
+
+  <!-- ================= 12. KONTAK ================= -->
+  <section id="contact" aria-labelledby="contact-h">
+    <div class="section-head">
+      <span class="section-icon">✉️</span>
+      <h2 id="contact-h">Kontak</h2>
+    </div>
+
+    <div class="contact-grid">
+      <a class="contact-card" href="mailto:azizrizqullohhh@gmail.com">
+        <span class="contact-icon">📧</span>
+        <div>
+          <div class="label">Email</div>
+          <div class="value">azizrizqullohhh@gmail.com</div>
+        </div>
+      </a>
+
+      <a class="contact-card" href="https://wa.me/6287786702861" target="_blank" rel="noopener">
+        <span class="contact-icon">💬</span>
+        <div>
+          <div class="label">WhatsApp</div>
+          <div class="value">+62 877-8670-2861</div>
+        </div>
+      </a>
+
+      <a class="contact-card" href="https://maps.app.goo.gl/J7aifQbkbxX3Es7c6" target="_blank" rel="noopener">
+        <span class="contact-icon">🏫</span>
+        <div>
+          <div class="label">Alamat Instansi</div>
+          <div class="value">SMKN 1 Jenangan, Ponorogo, Jawa Timur</div>
+        </div>
+      </a>
+
+      <a class="contact-card" href="https://github.com/azizrizqullohhh-lgtm" target="_blank" rel="noopener">
+        <span class="contact-icon">🐙</span>
+        <div>
+          <div class="label">GitHub</div>
+          <div class="value">github.com/azizrizqullohhh</div>
+        </div>
+      </a>
+
+      <a class="contact-card" href="https://www.instagram.com/aziz.rzqllh" target="_blank" rel="noopener">
+        <span class="contact-icon">📷</span>
+        <div>
+          <div class="label">Instagram</div>
+          <div class="value">@aziz.rzqllh</div>
+        </div>
+      </a>
+
+      <a class="contact-card" href="https://tiktok.com/@aziz.rizqullohhhh" target="_blank" rel="noopener">
+        <span class="contact-icon">🎵</span>
+        <div>
+          <div class="label">TikTok</div>
+          <div class="value">@aziz.rizqullohhhh</div>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- ================= 13. FOOTER ================= -->
+  <footer>
+    <div class="footer-top">
+      <div class="footer-col">
+        <div class="footer-brand">Aziz Septiaji Rizqulloh</div>
+        <p class="footer-desc">Junior Web Developer — SMKN 1 Jenangan, Ponorogo.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Navigasi</h4>
+        <a href="#about">Tentang</a>
+        <a href="#pendidikan">Pendidikan</a>
+        <a href="#projects">Portofolio</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Media Sosial</h4>
+        <a href="https://github.com/azizrizqullohhh-lgtm" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.instagram.com/aziz.rzqllh" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://tiktok.com/@aziz.rizqullohhhh" target="_blank" rel="noopener">TikTok</a>
+        <a href="https://wa.me/6287786702861" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div>© <span id="year"></span> Aziz Septiaji Rizqulloh. Seluruh hak cipta dilindungi.</div>
+      <div>Dibuat untuk Uji Serkom — Skema Junior Web Developer</div>
+    </div>
+  </footer>
+
+</div>
+
+<a href="#hero" class="to-top" id="toTop" aria-label="Kembali ke atas">↑</a>
+
+<script src="js/script.js"></script>
+</body>
+</html>
