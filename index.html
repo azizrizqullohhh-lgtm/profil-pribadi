@@ -386,7 +386,7 @@
     </div>
   </section>
 
-  <!-- ================= 9. SERTIFIKAT / PRESTASI ================= -->
+  <!-- ================= 9. SERTIFIKAT ================= -->
   <section id="sertifikat" aria-labelledby="sertifikat-h">
     <div class="section-head">
       <span class="section-icon">🏅</span>
@@ -455,43 +455,113 @@
   </div>
 </section>
 
-  <!-- ================= 11. ARTIKEL / BLOG ================= -->
-  <section id="artikel" aria-labelledby="artikel-h">
-    <div class="section-head">
-      <span class="section-icon">✍️</span>
-      <h2 id="artikel-h">Artikel / Blog</h2>
+<!-- ================= 11. ARTIKEL ================= -->
+<section id="artikel" aria-labelledby="artikel-h">
+  <div class="section-head">
+    <span class="section-icon">✍️</span>
+    <h2 id="artikel-h">Artikel / Blog</h2>
+  </div>
+
+  <article class="artikel-detail">
+
+    <!-- Header Artikel -->
+    <div class="artikel-hero">
+
+      <div class="artikel-hero-content">
+        <span class="artikel-category">WEB DEVELOPMENT</span>
+
+        <h3>Mengenal Konsep MVC dalam Pengembangan Website</h3>
+
+        <p class="artikel-date-detail">
+          Dipublikasikan pada 2026
+        </p>
+
+        <p class="artikel-intro">
+          MVC atau Model View Controller merupakan salah satu konsep
+          arsitektur yang banyak digunakan dalam pengembangan aplikasi
+          berbasis web. MVC digunakan untuk memisahkan bagian data,
+          tampilan, dan proses aplikasi sehingga kode program menjadi
+          lebih terstruktur dan mudah dikelola.
+        </p>
+      </div>
+
+      <div class="artikel-hero-image">
+        <div class="mvc-icon">
+          <span>≋</span>
+        </div>
+      </div>
+
     </div>
 
-    <div class="artikel-list">
-      <article class="artikel-item">
-        <div class="artikel-date">2026</div>
-        <div class="artikel-body">
-          <h3>Belajar Membuat Website Statis Pertama dengan HTML &amp; CSS</h3>
-          <p>Catatan langkah awal membangun halaman web: struktur HTML semantik, penataan layout dengan Flexbox dan Grid, serta cara membuat tampilan responsif.</p>
-          <span class="artikel-tag">Tutorial</span>
-        </div>
-      </article>
+    <!-- Isi Artikel -->
+    <div class="artikel-content">
 
-      <article class="artikel-item">
-        <div class="artikel-date">2026</div>
-        <div class="artikel-body">
-          <h3>Dari PHP ke Next.js: Pengalaman Memindahkan Proyek Toko Online</h3>
-          <p>Cerita saat mengubah proyek toko rajut dari PHP + MySQL menjadi Next.js + PostgreSQL agar bisa di-deploy ke Vercel, beserta kendala yang ditemui.</p>
-          <span class="artikel-tag">Pengalaman</span>
-        </div>
-      </article>
+      <h4>Apa Itu MVC?</h4>
 
-      <article class="artikel-item">
-        <div class="artikel-date">2026</div>
-        <div class="artikel-body">
-          <h3>Kenapa Validasi Form Harus Dilakukan di Sisi Server Juga</h3>
-          <p>Penjelasan singkat mengapa validasi di browser saja tidak cukup, dan bagaimana menerapkan validasi ganda pada form checkout.</p>
-          <span class="artikel-tag">Catatan Belajar</span>
+      <p>
+        MVC merupakan singkatan dari <strong>Model</strong>,
+        <strong>View</strong>, dan <strong>Controller</strong>.
+        Ketiga bagian tersebut memiliki tugas yang berbeda tetapi
+        saling berhubungan dalam menjalankan sebuah aplikasi.
+      </p>
+
+      <div class="mvc-parts">
+
+        <div class="mvc-part">
+          <h5>Model</h5>
+          <p>
+            Bertanggung jawab atas data dan logika bisnis aplikasi,
+            termasuk pengambilan dan penyimpanan data dari database.
+          </p>
         </div>
-      </article>
+
+        <div class="mvc-part">
+          <h5>View</h5>
+          <p>
+            Bagian yang menampilkan antarmuka (UI) kepada pengguna,
+            biasanya berupa halaman HTML yang menampilkan data dari Model.
+          </p>
+        </div>
+
+        <div class="mvc-part">
+          <h5>Controller</h5>
+          <p>
+            Menjadi penghubung antara Model dan View, menerima permintaan
+            dari pengguna dan menentukan data serta tampilan yang harus
+            diberikan.
+          </p>
+        </div>
+
+      </div>
+
+      <p>
+        Dengan menggunakan konsep MVC, pengembang dapat memisahkan kode
+        berdasarkan fungsinya. Hal ini membuat proses pengembangan dan
+        pemeliharaan aplikasi menjadi lebih mudah, karena perubahan pada
+        satu bagian (misalnya tampilan) tidak akan mengganggu bagian lain
+        (misalnya logika data).
+      </p>
+
+      <h4>Kenapa MVC Penting untuk Dipelajari?</h4>
+
+      <p>
+        Bagi pemula yang baru belajar web development, memahami konsep
+        MVC sangat membantu dalam menulis kode yang rapi dan terorganisir
+        sejak awal.
+      </p>
+
+      <p>
+        Selain itu, banyak framework populer seperti
+        <strong>Laravel</strong>, <strong>CodeIgniter</strong>, dan
+        <strong>Express.js</strong> yang menerapkan pola MVC, sehingga
+        pemahaman konsep ini akan mempermudah proses belajar
+        framework-framework tersebut.
+      </p>
+
     </div>
-    <p class="section-note">Catatan: tautkan judul artikel ke blog/Medium milikmu bila sudah ada.</p>
-  </section>
+
+  </article>
+</section>
 
   <!-- ================= 12. KONTAK ================= -->
   <section id="contact" aria-labelledby="contact-h">
